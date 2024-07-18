@@ -1,0 +1,154 @@
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgb(61, 61, 199);
+    padding: 15px;
+
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+}
+
+.logout-btn{
+    height: 30px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(167, 167, 241);
+    cursor: pointer;
+}
+
+.logout-btn a{
+    font-size: 15px;
+}
+
+.logout-btn:hover{
+   background-color: rgb(18, 164, 231); 
+}
+
+.user-mail{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.mail{
+    color: rgb(163, 142, 142);
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.sidebar{
+    width: 300px;
+    min-height: 100vh;
+    background-color: rgb(202, 202, 218);
+    margin-top: 5px;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding-top: 40px;
+}
+
+.sidebar ul li{
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.sidebar ul li:hover{
+    background: rgb(236, 236, 241);
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.sidebar ul li a{
+    color: rgb(9, 9, 122);
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+
+.sidebar ul li a{
+    display: inline;
+    padding-right: 10px;
+}
+
+.body{
+    display: flex;
+}
+.section{
+    background-color: rgb(248, 243, 239);
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    min-height: 100vh;
+    min-width: 757px;
+}
+
+.section-edit{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.section-edit ul{
+    list-style: none;
+}
+
+.sb-text{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.section ul li a{
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        width: 770px;
+    }
+
+    .sidebar{
+        min-width: 300px;
+        min-height: 230vh;
+    }
+    
+    .section{
+        min-height: 200vh;
+        min-width: 500px;
+    }
+    
+    .section-edit{
+        padding-top: 50px;
+    }
+    
+    .section ul li a{
+        letter-spacing: 2px;
+    }
+    
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
