@@ -90,35 +90,55 @@ h2{
     display: flex;
 }
 .section{
-    background-color: rgb(230, 226, 223);
+    display: flex;
+    background: rgb(230, 226, 223);
     margin-top: 5px;
     margin-left: 5px;
     border-radius: 5px;
     min-height: 100vh;
-    min-width: 760px;
+    min-width: 1050px
+}
+
+h3{
+    font-size: 26px;
+}
+
+.input-container{
+    width: 200px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.input-container label{
+     color: black;
+     font-size: 20px;
+}
+
+.input-container input{
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(43, 37, 37);
+    padding: 5px;
+    color: rgba(19, 17, 17);
+    font-size: 16px;
+}
+
+.month-cvc input{
+    height: 30px;
+    width: 192px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(43, 37, 37);
+    padding: 5px;
+    color: rgba(19, 17, 17);
+    font-size: 16px;
 }
 
 .section-edit{
+    padding-left:60px;
     padding-top: 20px;
-    padding-left: 15px;
-}
-
-.section-edit ul{
-    list-style: none;
-}
-
-.sb-text{
-    font-size: 25px;
-    font-weight: bold;
-    padding-left: 20px;
-}
-
-.section ul li a{
-    letter-spacing: 1px;
-}
-
-.section ul li a:hover{
-    color:brown
 }
 
 @media screen and (max-width: 768px){
@@ -140,16 +160,12 @@ h2{
     .section-edit{
         padding-top: 50px;
     }
-    
-    .section ul li a{
-        letter-spacing: 2px;
-    }
-    
-    hr{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
 }
+
+
+
+
+
 
 
 
