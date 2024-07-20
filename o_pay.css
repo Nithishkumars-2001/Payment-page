@@ -1,0 +1,162 @@
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgb(61, 61, 199);
+    padding: 15px;
+
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+}
+
+.logout-btn{
+    height: 30px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(167, 167, 241);
+    cursor: pointer;
+}
+
+.logout-btn a{
+    font-size: 15px;
+}
+
+.logout-btn:hover{
+   background-color: rgb(18, 164, 231); 
+}
+
+.user-mail{
+    text-align: center;
+    padding-top: 15px;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(52, 52, 180);
+}
+
+.mail{
+    color: rgb(163, 142, 142);
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.sidebar{
+    width: 300px;
+    min-height: 100vh;
+    background-color: rgb(202, 202, 218);
+    margin-top: 5px;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding-top: 40px;
+}
+
+.sidebar ul li{
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.sidebar ul li:hover{
+    background: rgb(236, 236, 241);
+    border: none;
+    border-radius: 20px;
+}
+
+.sidebar ul li a{
+    color: rgb(9, 9, 122);
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+
+.sidebar ul li a{
+    display: inline;
+    padding-right: 10px;
+}
+
+.body{
+    display: flex;
+}
+.section{
+    display: flex;
+    background-color: rgb(230, 226, 223);
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    min-height: 100vh;
+    min-width: 1050px
+}
+
+.upi-text{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.upi-img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.section-edit{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.section-edit ul{
+    list-style: none;
+}
+
+.section-edit ul li{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.upi-option{
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px){
+    
+    .navbar{
+        width: 800px;
+    }
+
+    .sidebar{
+        min-width: 330px;
+        min-height: 230vh;
+    }
+    
+    .section{
+        min-height: 200vh;
+        min-width: 500px;
+    }
+    
+    .section-edit{
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
